@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thirdactivity"
+    android:gravity="center">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Marquee text which move on screen"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:id="@+id/marqueetext"/>
+
+</RelativeLayout>
