@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".thirdactivity"
     android:gravity="center">
-    
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,5 +20,19 @@
         android:marqueeRepeatLimit="marquee_forever"
         android:padding="10dp"
         android:id="@+id/marqueetext"/>
+
+    <Button
+        android:id="@+id/movenext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/marqueetext"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_btn"
+        android:padding="20dp"
+        android:text="SUM ACTIVITY"
+        android:textColor="@android:color/background_light" />
 
 </RelativeLayout>
