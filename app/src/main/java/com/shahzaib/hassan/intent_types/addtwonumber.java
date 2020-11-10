@@ -62,7 +62,7 @@ public class addtwonumber extends AppCompatActivity {
     }
     public void circulerimage()
     {
-        Intent intent = new Intent(addtwonumber.this,circulerimageview.class);
+        Intent intent = new Intent(addtwonumber.this,imagecirculeractivity.class);
         startActivity(intent);
     }
     public void pdfmover()

@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".circulerimageview"></activity>
+        <activity android:name=".transferdataparttwo"></activity>
+        <activity android:name=".transferdatabyintent" />
+        <activity android:name=".genderradiobutton" />
+        <activity android:name=".imagecirculeractivity" />
         <activity android:name=".booktwo" />
         <activity android:name=".bookone" />
         <activity android:name=".pdfviewer" />
